@@ -1,0 +1,18 @@
+env:
+  n_agents: 8
+  episode_length: 360
+  ticker: "BTC/USDT"
+
+training:
+  total_episodes: 5000
+  update_freq: 32
+  batch_size: 256
+  gamma: 0.99
+  learning_rate: 3e-4
+
+lockguard:
+  kappa: 0.4
+  theta_exec_team: 0.60
+  beta_c: 25
+  lambda_causal: 0.2
+  lambda_II: 0.5
