@@ -1,0 +1,106 @@
+# ====================================
+# LockGuard RL v4 - .gitignore
+# ====================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Data and results (large files)
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+results/*.csv
+results/*.json
+data/
+logs/
+outputs/
+checkpoints/
+
+# Models and weights
+*.pt
+*.pth
+*.onnx
+*.bin
+*.model
+
+# Logs and temporary files
+*.log
+*.csv
+*.tsv
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*\~
+.project
+.pydevproject
+
+# Zenodo / GitHub large files
+*.zip
+*.tar.gz
+*.7z
+
+# Environment variables
+.env
+.env.local
+credentials.json
+secrets.json
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary folders
+tmp/
+temp/
+cache/
+
+# Lock files (if using specific tools)
+Pipfile.lock
+poetry.lock
